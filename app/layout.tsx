@@ -1,10 +1,14 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { M_PLUS_Rounded_1c } from 'next/font/google'
 import Image from 'next/image'
 import Link from 'next/link'
 import './globals.css'
 
-const inter = Inter({ subsets: ['latin'] })
+const rounded = M_PLUS_Rounded_1c({
+    weight: ["400", "500"],
+    subsets: ["latin"],
+    display: "swap",
+})
 
 export const metadata: Metadata = {
     title: '吹奏楽部 KUT WINDBRASS',
@@ -20,24 +24,21 @@ export default function RootLayout({
         <html lang="ja">
             <head>
                 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css" />
-                <link rel="preconnect" href="https://fonts.googleapis.com" />
-                <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
-                <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&amp;display=swap" rel="stylesheet"></link>
             </head>
-            <body className={inter.className}>
+            <body className={rounded.className}>
                 <header>
                     <div>
                         <Link href="/">
 
                             <Image src="/brass_logo.png" width={40} height={40} alt={'brass logo'} />
-                            <span>吹奏楽部KUT <span>WINDBRASS</span></span>
+                            <span>吹奏楽部 KUT <wbr/>WINDBRASS</span>
                         </Link>
                         <button type="button" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation"><span></span></button>
                         <div id="navbarSupportedContent">
                             <ul>
                                 <li><Link href="/">ホーム</Link></li>
-                                <li><Link href="/concertinfo">演奏情報</Link></li>
-                                <li><Link href="/activitylog">活動記録</Link></li>
+                                <li><Link href="/concert">演奏情報</Link></li>
+                                <li><Link href="/activity">活動記録</Link></li>
                                 <li><Link href="/links">SNS等</Link></li>
                                 <li><Link href="/contact">お問い合わせ</Link></li>
                             </ul>
