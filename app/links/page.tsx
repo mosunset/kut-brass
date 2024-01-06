@@ -13,7 +13,7 @@ const Links = () => {
           <div className="p-4">
             <h5 className="text-lg font-semibold mb-2">Instagram</h5>
             <p className="mb-4">日々の活動を定期的に発信中</p>
-            <a href="https://www.instagram.com/kutwindbrass/" className="underline absolute bottom-3 right-4 text-blue-500 hover:text-orange-400 flex items-center">
+            <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/kutwindbrass/" className="underline absolute bottom-3 right-4 text-blue-500 hover:text-orange-400 flex items-center">
               Instagram
               <i className="bi bi-arrow-up-right-square ml-2"></i>
             </a>
@@ -24,7 +24,7 @@ const Links = () => {
           <div className="p-4">
             <h5 className="text-lg font-semibold mb-2">Twitter</h5>
             <p className="mb-4"></p>
-            <a href="https://twitter.com/windbrass_kut" className="underline absolute bottom-3 right-4 text-blue-500 hover:text-orange-400 flex items-center">Twitter
+            <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/windbrass_kut" className="underline absolute bottom-3 right-4 text-blue-500 hover:text-orange-400 flex items-center">Twitter
               <i className="bi bi-arrow-up-right-square ml-2"></i>
             </a>
           </div>
@@ -34,7 +34,7 @@ const Links = () => {
           <div className="p-4">
             <h5 className="text-lg font-semibold mb-2">質問箱peing</h5>
             <p className="mb-4"></p>
-            <a href="https://peing.net/ja/windbrass_kut" className="underline absolute bottom-3 right-4 text-blue-500 hover:text-orange-400 flex items-center">peing
+            <a target="_blank" rel="noopener noreferrer" href="https://peing.net/ja/windbrass_kut" className="underline absolute bottom-3 right-4 text-blue-500 hover:text-orange-400 flex items-center">peing
               <i className="bi bi-arrow-up-right-square ml-2"></i>
             </a>
           </div>
@@ -44,7 +44,7 @@ const Links = () => {
           <div className="p-4">
             <h5 className="text-lg font-semibold mb-2">YouTube</h5>
             <p className="mb-4"></p>
-            <a href="https://www.youtube.com/user/KUTWINDBRASS" className="underline absolute bottom-3 right-4 text-blue-500 hover:text-orange-400 flex items-center">YouTube
+            <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/user/KUTWINDBRASS" className="underline absolute bottom-3 right-4 text-blue-500 hover:text-orange-400 flex items-center">YouTube
               <i className="bi bi-arrow-up-right-square ml-2"></i>
             </a>
           </div>
@@ -54,7 +54,7 @@ const Links = () => {
           <div className="p-4">
             <h5 className="text-lg font-semibold mb-2">FaceBook</h5>
             <p className="mb-4"></p>
-            <a href="https://www.facebook.com/windbrass/" className="underline absolute bottom-3 right-4 text-blue-500 hover:text-orange-400 flex items-center">FaceBook
+            <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/windbrass/" className="underline absolute bottom-3 right-4 text-blue-500 hover:text-orange-400 flex items-center">FaceBook
               <i className="bi bi-arrow-up-right-square ml-2"></i>
             </a>
           </div>
@@ -64,7 +64,7 @@ const Links = () => {
           <div className="p-4">
             <h5 className="text-lg font-semibold mb-2">ブログ</h5>
             <p className="mb-4"></p>
-            <a href="http://wbrass.blog64.fc2.com/" className="underline absolute bottom-3 right-4 text-blue-500 hover:text-orange-400 flex items-center">ブログ
+            <a target="_blank" rel="noopener noreferrer" href="http://wbrass.blog64.fc2.com/" className="underline absolute bottom-3 right-4 text-blue-500 hover:text-orange-400 flex items-center">ブログ
               <i className="bi bi-arrow-up-right-square ml-2"></i>
             </a>
           </div>
@@ -74,7 +74,7 @@ const Links = () => {
           <div className="p-4">
             <h5 className="text-lg font-semibold mb-2">高知工科大学</h5>
             <p className="mb-4"></p>
-            <a href="http://www.kochi-tech.ac.jp/" className="underline absolute bottom-3 right-4 text-blue-500 hover:text-orange-400 flex items-center">高知工科大学
+            <a target="_blank" rel="noopener noreferrer" href="http://www.kochi-tech.ac.jp/" className="underline absolute bottom-3 right-4 text-blue-500 hover:text-orange-400 flex items-center">高知工科大学
               <i className="bi bi-arrow-up-right-square ml-2"></i>
             </a>
           </div>
@@ -84,7 +84,7 @@ const Links = () => {
           <div className="p-4">
             <h5 className="text-lg font-semibold mb-2">工科大クラブ活動ページ</h5>
             <p className="mb-4"></p>
-            <a href="https://www.kochi-tech.ac.jp/campus_life/activities/culture-club/-wind-brass-1.html" className="underline absolute bottom-3 right-4 text-blue-500 hover:text-orange-400 flex items-center">工科大brassページ
+            <a target="_blank" rel="noopener noreferrer" href="https://www.kochi-tech.ac.jp/campus_life/activities/culture-club/-wind-brass-1.html" className="underline absolute bottom-3 right-4 text-blue-500 hover:text-orange-400 flex items-center">工科大brassページ
               <i className="bi bi-arrow-up-right-square ml-2"></i>
             </a>
           </div>
@@ -94,7 +94,7 @@ const Links = () => {
           <div className="p-4">
             <h5 className="text-lg font-semibold mb-2">高知大学</h5>
             <p className="mb-4"></p>
-            <a href="http://www.kochi-u.ac.jp/" className="underline absolute bottom-3 right-4 text-blue-500 hover:text-orange-400 flex items-center">高知大学
+            <a target="_blank" rel="noopener noreferrer" href="http://www.kochi-u.ac.jp/" className="underline absolute bottom-3 right-4 text-blue-500 hover:text-orange-400 flex items-center">高知大学
               <i className="bi bi-arrow-up-right-square ml-2"></i>
             </a>
           </div>
@@ -104,7 +104,7 @@ const Links = () => {
           <div className="p-4">
             <h5 className="text-lg font-semibold mb-2">高知大学吹奏楽団</h5>
             <p className="mb-4"></p>
-            <a href="https://kuwwbb.jimdofree.com/" className="underline absolute bottom-3 right-4 text-blue-500 hover:text-orange-400 flex items-center">高知大学吹奏楽団
+            <a target="_blank" rel="noopener noreferrer" href="https://kuwwbb.jimdofree.com/" className="underline absolute bottom-3 right-4 text-blue-500 hover:text-orange-400 flex items-center">高知大学吹奏楽団
               <i className="bi bi-arrow-up-right-square ml-2"></i>
             </a>
           </div>
@@ -114,7 +114,7 @@ const Links = () => {
           <div className="p-4">
             <h5 className="text-lg font-semibold mb-2">鏡野吹奏楽団</h5>
             <p className="mb-4"></p>
-            <a href="http://kagamino.sakura.ne.jp/" className="underline absolute bottom-3 right-4 text-blue-500 hover:text-orange-400 flex items-center">鏡野吹奏楽団
+            <a target="_blank" rel="noopener noreferrer" href="http://kagamino.sakura.ne.jp/" className="underline absolute bottom-3 right-4 text-blue-500 hover:text-orange-400 flex items-center">鏡野吹奏楽団
               <i className="bi bi-arrow-up-right-square ml-2"></i>
             </a>
           </div>
@@ -124,7 +124,7 @@ const Links = () => {
           <div className="p-4">
             <h5 className="text-lg font-semibold mb-2">Musical Time</h5>
             <p className="mb-4"></p>
-            <a href="https://musical-time.jimdosite.com/" className="underline absolute bottom-3 right-4 text-blue-500 hover:text-orange-400 flex items-center">Musical Time
+            <a target="_blank" rel="noopener noreferrer" href="https://musical-time.jimdosite.com/" className="underline absolute bottom-3 right-4 text-blue-500 hover:text-orange-400 flex items-center">Musical Time
               <i className="bi bi-arrow-up-right-square ml-2"></i>
             </a>
           </div>
@@ -134,7 +134,7 @@ const Links = () => {
           <div className="p-4">
             <h5 className="text-lg font-semibold mb-2">JAZZ研究会</h5>
             <p className="mb-4"></p>
-            <a href="https://sites.google.com/view/tssj" className="underline absolute bottom-3 right-4 text-blue-500 hover:text-orange-400 flex items-center">JAZZ研究会
+            <a target="_blank" rel="noopener noreferrer" href="https://sites.google.com/view/tssj" className="underline absolute bottom-3 right-4 text-blue-500 hover:text-orange-400 flex items-center">JAZZ研究会
               <i className="bi bi-arrow-up-right-square ml-2"></i>
             </a>
           </div>
