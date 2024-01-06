@@ -3,7 +3,7 @@ import { Inter } from 'next/font/google'
 import Image from 'next/image'
 import Link from 'next/link'
 import './globals.css'
-
+import GoogleAnalytics from './GoogleAnalytics'
 import { basePath } from "../next.config" // 追加
 const BASE_PATH = basePath ? basePath : "" // 追加
 
@@ -24,6 +24,7 @@ export default function RootLayout({ children, }: { children: React.ReactNode })
     return (
         <html lang="ja">
             <head>
+                <GoogleAnalytics/>
                 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css" />
 
                 <link rel="preconnect" href="https://fonts.googleapis.com" />
