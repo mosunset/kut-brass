@@ -24,7 +24,7 @@ const Home = () => {
                         <p className='text-red-600 font-bold text-xl sm:text-2xl lg:text-3xl text-center my-4'>メンバーは大学から始めた初心者や経験者も沢山います。<br />随時部員募集中!! ぜひ見学に来てください!!</p>
                     </div>
                 </div>
-                <h2 className='text-3xl border-b-2 border-gray-400 my-4 px-2 block'>吹奏楽部の情報</h2>
+                <h2 className='text-3xl border-b border-gray-400 my-4 px-2 block'>吹奏楽部の情報</h2>
                 <div className='sm:flex flex-none justify-evenly mb-4'>
                     <div className='flex'>
                         <div className='m-2'>

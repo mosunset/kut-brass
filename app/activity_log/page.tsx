@@ -4,7 +4,7 @@ import json from '../../public/activity_log.json'
 
 // Activity_logコンポーネントを定義
 const Activity_log = () => {
-    console.log(json.log)
+    // console.log(json.log)
     return (
         <main className="max-w-7xl w-full mx-auto mt-5 px-4 sm:px-6 lg:px-8">
             {json.log.map((entry, index) => (

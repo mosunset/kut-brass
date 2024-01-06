@@ -27,37 +27,37 @@ const SlideshowComponent = () => {
     const images = [
         {
             id: 1,
-            src: "/homeslide/0.jpg",
+            src: `${BASE_PATH}/homeslide/0.jpg`,
             alt: "Image 0"
         },
         {
             id: 2,
-            src: "/homeslide/1.jpg",
+            src: `${BASE_PATH}/homeslide/1.jpg`,
             alt: "Image 1"
         },
         {
             id: 3,
-            src: "/homeslide/2.jpg",
+            src: `${BASE_PATH}/homeslide/2.jpg`,
             alt: "Image 2"
         },
         {
             id: 4,
-            src: "/homeslide/3.jpg",
+            src: `${BASE_PATH}/homeslide/3.jpg`,
             alt: "Image 3"
         },
         {
             id: 5,
-            src: "/homeslide/4.jpg",
+            src: `${BASE_PATH}/homeslide/4.jpg`,
             alt: "Image 4"
         },
         {
             id: 6,
-            src: "/homeslide/5.jpg",
+            src: `${BASE_PATH}/homeslide/5.jpg`,
             alt: "Image 5"
         },
         {
             id: 7,
-            src: "/homeslide/6.jpg",
+            src: `${BASE_PATH}/homeslide/6.jpg`,
             alt: "Image 6"
         }
     ];
@@ -71,7 +71,7 @@ const SlideshowComponent = () => {
             {images.map((image) => (
                 <div key={image.id}>
                     <Image
-                        src={`${BASE_PATH}/${image.src}`}
+                        src={image.src}
                         alt={image.alt}
                         width={1312}
                         height={752}
