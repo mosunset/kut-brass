@@ -40,7 +40,7 @@ export default function RootLayout({ children, }: { children: React.ReactNode })
                     <div className="text-center">
                         <div className='flex justify-center items-center'>
                             <Link href="/" className="flex justify-center items-center text-xl font-semibold text-black max-w-fit p-6">
-                                <Image src={`${BASE_PATH}/base_logo.png`} width={40} height={40} priority alt={''} className='mr-2' />
+                                <Image src={`${BASE_PATH}/brass_logo.png`} width={40} height={40} priority alt={''} className='mr-2' />
                                 <span>KUT WINDBRASS</span>
                             </Link>
                         </div>

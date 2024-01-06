@@ -12,7 +12,7 @@ const Contact = () => {
             </p>
             <p className="mt-5 text-2xl">kutwindbrass<i className="bi bi-at"></i>gmail.com</p>
             <p className='text-sm'>(スパム対策のため<i className="bi bi-at"></i>をコピーできなくしています。)</p>
-            <p className="mt-5">へ、お願いします。</p>
+            <p className="mt-5">に、お願いします。</p>
             <p className="mt-5">
                 ※gooメールの無料版サービスの提供終了につき、お問い合わせ用メールアドレスを変更いたしました。<br />
                 下記のgooメールのアドレスで登録された方は変更よろしくお願い致します。
