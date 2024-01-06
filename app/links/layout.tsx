@@ -16,8 +16,8 @@ export default function LinksLayout({
     children: React.ReactNode
 }) {
     return (
-        <div>
+        <>
             {children}
-        </div>
+        </>
     )
 }

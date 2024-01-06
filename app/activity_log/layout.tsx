@@ -16,8 +16,8 @@ export default function ActivityLayout({
     children: React.ReactNode
 }) {
     return (
-        <div>
+        <>
             {children}
-        </div>
+        </>
     )
 }
