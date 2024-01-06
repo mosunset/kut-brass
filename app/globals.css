@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -24,5 +25,5 @@ body {
   min-width: 350px;
   overflow-x: hidden;
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(0deg, #59005c2a, #71055e2a, #87125e2a, #9c215e2a, #ae315e2a, #bf425d2a, #ce545d2a, #dc665d2a, #e7795e2a, #f18d602a, #f9a1652a, #ffb56b2a);
+  background: linear-gradient(0deg, #59005c10, #71055e10, #87125e10, #9c215e10, #ae315e10, #bf425d10, #ce545d10, #dc665d10, #e7795e10, #f18d6010, #f9a16510, #ffb56b10);
 }
