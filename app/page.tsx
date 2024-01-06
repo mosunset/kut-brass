@@ -1,23 +1,23 @@
 import Image from 'next/image'
 
-export default function acrivitylog() {
+export default function Home() {
     return (
-        <main>
+        <main className="max-w-7xl w-full mx-auto mt-0 px-4 sm:px-6 lg:px-8">
             <div>
                 <div>
                     <div>
                         <div>
-                            <div><Image src="/homeslide/0.jpg" alt="slide写真0" width={1312} height={752}/></div>
-                            <div><Image src="/homeslide/1.jpg" alt="slide写真1" width={1312} height={752}/></div>
-                            <div><Image src="/homeslide/2.jpg" alt="slide写真2" width={1312} height={752}/></div>
-                            <div><Image src="/homeslide/3.jpg" alt="slide写真3" width={1312} height={752}/></div>
-                            <div><Image src="/homeslide/4.jpg" alt="slide写真4" width={1312} height={752}/></div>
-                            <div><Image src="/homeslide/5.jpg" alt="slide写真5" width={1312} height={752}/></div>
-                            <div><Image src="/homeslide/6.jpg" alt="slide写真6" width={1312} height={752}/></div>
+                            <div><Image src="/homeslide/0.jpg" alt="slide写真0" width={1312} height={752} /></div>
+                            <div><Image src="/homeslide/1.jpg" alt="slide写真1" width={1312} height={752} /></div>
+                            <div><Image src="/homeslide/2.jpg" alt="slide写真2" width={1312} height={752} /></div>
+                            <div><Image src="/homeslide/3.jpg" alt="slide写真3" width={1312} height={752} /></div>
+                            <div><Image src="/homeslide/4.jpg" alt="slide写真4" width={1312} height={752} /></div>
+                            <div><Image src="/homeslide/5.jpg" alt="slide写真5" width={1312} height={752} /></div>
+                            <div><Image src="/homeslide/6.jpg" alt="slide写真6" width={1312} height={752} /></div>
                         </div>
                     </div>
                     <h1 title="高知工科大学 吹奏楽部">
-                        WIND BRASS<br/>Kochi University of Technology
+                        WIND BRASS<br />Kochi University of Technology
                     </h1>
                 </div>
             </div>

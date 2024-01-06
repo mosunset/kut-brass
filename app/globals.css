@@ -15,12 +15,14 @@
     --background-end-rgb: 0, 0, 0;
   }
 } */
-/* *{
+
+*{
   font-family: "M PLUS Rounded 1c", sans-serif;
-} */
+}
 
 body {
-  min-height: 100vh;
+  min-width: 350px;
+  overflow-x: hidden;
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(0deg, #59005c50, #71055e50, #87125e50, #9c215e50, #ae315e50, #bf425d50, #ce545d50, #dc665d50, #e7795e50, #f18d6050, #f9a16550, #ffb56b50);
+  background: linear-gradient(0deg, #59005c2a, #71055e2a, #87125e2a, #9c215e2a, #ae315e2a, #bf425d2a, #ce545d2a, #dc665d2a, #e7795e2a, #f18d602a, #f9a1652a, #ffb56b2a);
 }
