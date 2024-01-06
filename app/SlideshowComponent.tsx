@@ -5,6 +5,9 @@ import Image from 'next/image'
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
+import { basePath } from "../next.config" // 追加
+const BASE_PATH = basePath ? basePath : "" // 追加
+
 const SlideshowComponent = () => {
     const settings = {
         autoplay: true,
@@ -68,7 +71,7 @@ const SlideshowComponent = () => {
             {images.map((image) => (
                 <div key={image.id}>
                     <Image
-                        src={image.src}
+                        src={`${BASE_PATH}/${image.src}`}
                         alt={image.alt}
                         width={1312}
                         height={752}

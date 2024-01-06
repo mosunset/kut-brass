@@ -1,3 +1,7 @@
+# Github pages
+https://mosunset.github.io/kut-brass/
+
+# 起動方法
 このプロジェクトは [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) で作成された [Next.js](https://nextjs.org/) プロジェクトです。
 
 ## スタートガイド

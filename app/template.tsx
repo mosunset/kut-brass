@@ -4,6 +4,8 @@ import { usePathname } from 'next/navigation'
 import Image from 'next/image'
 import Link from 'next/link'
 
+import { basePath } from "../next.config" // 追加
+const BASE_PATH = basePath ? basePath : "" // 追加
 
 export default function Template({ children }: { children: React.ReactNode }) {
     // 現在のページのパスを取得
@@ -14,7 +16,7 @@ export default function Template({ children }: { children: React.ReactNode }) {
                 <nav className="relative max-w-7xl w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between sm:px-6 lg:px-8" aria-label="Global">
                     <div className="flex items-center justify-center">
                         <Link href="/" className="flex flex-wrap sm:justify-start sm:flex-nowrap text-xl sm:py-5">
-                            <Image src="/brass_logo.png" width={40} height={40} alt={'brass logo'} className='mr-2' />
+                            <Image src={`${BASE_PATH}/brass_logo.png`} width={40} height={40} alt={'brass logo'} className='mr-2' />
                             <div className='flex-none text-xl font-semibold'>KUT <wbr />WINDBRASS</div>
                         </Link>
                     </div>

@@ -4,6 +4,9 @@ import Image from 'next/image'
 import Link from 'next/link'
 import './globals.css'
 
+import { basePath } from "../next.config" // 追加
+const BASE_PATH = basePath ? basePath : "" // 追加
+
 const inter = Inter({
     weight: ["400", "500"],
     subsets: ["latin"],
@@ -37,7 +40,7 @@ export default function RootLayout({ children, }: { children: React.ReactNode })
                     <div className="text-center">
                         <div className='flex justify-center items-center'>
                             <Link href="/" className="flex justify-center items-center text-xl font-semibold text-black max-w-fit p-6">
-                                <Image src="/brass_logo.png" width={40} height={40} priority alt={''} className='mr-2' />
+                                <Image src={`${BASE_PATH}/base_logo.png`} width={40} height={40} priority alt={''} className='mr-2' />
                                 <span>KUT WINDBRASS</span>
                             </Link>
                         </div>
@@ -49,7 +52,7 @@ export default function RootLayout({ children, }: { children: React.ReactNode })
                         </div>
                         <div className="mt-2 space-x-1">
                             <a href="https://www.kochi-tech.ac.jp/campus_life/activities/culture-club/-wind-brass-1.html" target="_blank" rel="noopener noreferrer" className="inline-flex justify-center items-center w-10 h-10 text-center text-gray-500 hover:bg-gray-100 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white transition">
-                                <Image src="/kut_logo.png" width={20} height={20} priority alt={''} className='flex-shrink-0 w-4 h-3.5' />
+                                <Image src={`${BASE_PATH}/kut_logo.png`} width={20} height={20} priority alt={''} className='flex-shrink-0 w-4 h-3.5' />
                             </a>
                             <a href="https://www.instagram.com/kutwindbrass/" target="_blank" rel="noopener noreferrer" className="inline-flex justify-center items-center w-10 h-10 text-center text-gray-500 hover:bg-gray-100 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white transition ">
                                 <i className="bi bi-instagram flex-shrink-0 w-3.5 h-3.5 -mt-2.5"></i>
